@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/public/output.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body class="bg-black text-white max-sm:overflow-x-hidden">
+
+
+    
+        <!-- the div holding my first nav -->
+        <div>
+
+    <!-- the side containing search input and the rest -->
+     <div class="flex justify-center gap-4 ml-7 mt-4 fixed bg-transparent max-sm:static justify-around items-center mx-8 mt-4 fixed w-[80vw]">
+
+        <!-- div holding youtube -->
+         <div class="flex gap-3 mr-56 max-sm:items-center gap-[4px] ml-14">
+        <img src="/public/image/utube.png" alt="" class="w-12 mb-7 max-sm:mb-0 w-9">
+        <p class="mt-2">YouTube</p>
+         </div>
+        <!-- search input -->
+     <div class="border rounded-2xl w-[50vw] flex justify-between items-center h-9 px-2 max-sm:w-9">
+        <input type="search" placeholder="search" class="max-sm:hidden">
+        <i class="fa-solid fa-magnifying-glass"></i>
+     </div>
+
+     <div class="mt-2"><i class="fa-solid fa-microphone"></i></div>
+
+     <div class="flex justify-end gap-4 ml-12 w-96 max-sm:items-center">
+        <p class="bg-gray-600 text-2xl  h-8 w-20 pl-1 mt-1 rounded-2xl max-sm:hidden">create</p>
+        <div class="mt-2 mr-24"><i class="fa-regular fa-bell"></i></div>
+        <p class="bg-blue-500 rounded-4xl text-2xl pl-4 pt-1 w-10 h-10 max-sm:hidden">i</p>
+     </div>
+     </div>
+
+
+     <!-- second nav section -->
+
+       <div class="flex text-center ml-96 max-sm:ml-8">
+        <nav>
+            <ul class="flex justify-center gap-6 text-white mt-32 max-sm:mt-4">
+                <li class="bg-gray-500 rounded-[7px] text-xl h-11 flex items-center"><a href="#">add</a></li>
+                <li  class="bg-gray-500 rounded-[7px] text-xl h-11 flex items-center"><a href="#">one piece</a></li>
+                <li  class="bg-gray-500 rounded-[7px] text-xl h-11 flex items-center"><a href="#">net ninja</a></li>
+                <li  class="bg-gray-500 rounded-[7px] text-xl h-11 flex items-center"><a href="#">javascript</a></li>
+                <li  class="bg-gray-500 rounded-[7px] text-xl h-11 flex items-center"><a href="#">naruto</a></li>
+                <li  class="bg-gray-500 rounded-[7px] text-xl h-11 flex items-center max-sm:hidden"><a href="#">pureojuice</a></li>
+                <li  class="bg-gray-500 rounded-[7px] text-xl h-11 flex items-center max-sm:hidden"><a href="#">programming language</a></li>
+                <li  class="bg-gray-500 rounded-[7px] text-xl h-11 flex items-center max-sm:hidden"><a href="#">html</a></li>
+                <li  class="bg-gray-500 rounded-[7px] text-xl h-11 flex items-center max-sm:hidden"><a href="#">linux</a></li>
+                <li  class="bg-gray-500 rounded-[7px] text-xl h-11 flex items-center max-sm:hidden"><a href="#">css</a></li>
+            </ul>
+        </nav>
+    </div>
+
+
+
+    <!-- the div holding my sidebar and content -->
+
+    <div class="grid grid-cols-[15%_85%] max-sm:grid-cols-[30%_70%]">
+       <!-- aside section -->
+      <aside class="border-r h-[calc(100vh-96px)] top-20 w-[15%] fixed overflow-y-scroll max-sm:hidden">
+            <div class="flex gap-3">
+                <i class="fa-regular fa-house"></i>
+                <p>home</p>
+            </div>
+
+            <div class="flex gap-3 mt-4">
+                <i class="fa-solid fa-clapperboard"></i>
+                <p>shorts</p>
+            </div>
+
+             <div class="border border-gray-500 mt-4 w-36"></div>
+
+            <div class="flex gap-3 mt-4">
+                <i class="fa-solid fa-grip-lines"></i>
+                <p>playlists</p>
+            </div>
+
+            <div class="flex gap-3 mt-4">
+                <i class="fa-regular fa-clock"></i>
+                <p>recent</p>
+            </div>
+
+
+              <div class="flex gap-3 mt-4">
+                <i class="fa-regular fa-thumbs-up"></i>
+                <p>likes</p>
+            </div>
+
+
+            <div class="flex gap-3 mt-4">
+            <i class="fa-solid fa-arrow-down"></i>
+            <p>download</p>
+            </div>
+
+              <div class="border border-gray-500 mt-4 w-36"></div>
+
+                <div class="flex gap-3 mt-4">
+                <i class="fa-brands fa-itunes-note"></i>
+                <p>music</p>
+            </div>
+
+            <div class="flex gap-3 mt-4">
+                <i class="fa-solid fa-gamepad"></i>
+                <p>gaming</p>
+            </div>
+
+
+              <div class="flex gap-3 mt-4">
+                <i class="fa-regular fa-newspaper"></i>
+                <p>News</p>
+            </div>
+
+
+            <div class="flex gap-3 mt-4">
+            <i class="fa-solid fa-chevron-down"></i>
+            <p>show more</p>
+            </div>
+
+              <div class="border border-gray-500 mt-4 w-36"></div>
+
+                <div class="flex gap-3 mt-4">
+                <i class="fa-solid fa-grip-lines"></i>
+                <p>playlists</p>
+            </div>
+
+            <div class="flex gap-3 mt-4">
+                <i class="fa-regular fa-clock"></i>
+                <p>recent</p>
+            </div>
+
+
+              <div class="flex gap-3 mt-4">
+                <i class="fa-regular fa-thumbs-up"></i>
+                <p>likes</p>
+            </div>
+
+
+            <div class="flex gap-3 mt-4">
+            <i class="fa-solid fa-arrow-down"></i>
+            <p>download</p>
+            </div>
+
+              <div class="border border-gray-500 mt-4 w-36"></div>
+
+                <div class="flex gap-3 mt-4">
+                <i class="fa-solid fa-gear"></i>
+                <p>settings</p>
+            </div>
+
+            <div class="flex gap-3 mt-4">
+                <i class="fa-regular fa-flag"></i>
+                <p>Report history</p>
+            </div>
+
+
+              <div class="flex gap-3 mt-4">
+                <i class="fa-regular fa-circle-question"></i>
+                <p>Help</p>
+            </div>
+
+
+            <div class="flex gap-3 mt-4">
+            <i class="fa-regular fa-message"></i>
+            <p>Send Feedback</p>
+            </div>
+
+             <div class="border border-gray-500 mt-4 w-36"></div>
+
+             <div class="mt-4">
+                <p>About Press Copyright <br>Contact us Creators <br> Advertise Developers <br>
+Terms Privacy Policy & Safety <br>How YouTube works <br>Test new features <br>
+© 2026 Google LLC</p>
+             </div>
+        </aside>
+
+
+
+
+    <!-- the div containing my images -->
+     <div class="grid grid-cols-3 gap-4 ml-[18vw] w-[60vw] mt-10 max-sm:grid-cols-1 w-[80vw] ml-[2vw] mt-[3vh]">
+    <div class="transition duration-1000 ease-in-out hover:bg-gray-700 border py-9 px-4 border-none">
+        <img src="/public/image/asakusa.jpg" alt="" class="w-full max-sm:w-[70%] h-[50vh]">
+        <p class="text-2xl">explore this content</p>
+    </div>
+
+     <div class="transition duration-1000 ease-in-out hover:bg-gray-700 border py-4 pl-9 border-none">
+        <img src="/public/image/luffy.gif" alt="" class="max-sm:w-[70%] h-[50vh]">
+        <p class="text-2xl">could luffy's imagination be his limit in gear 5</p>
+    </div>
+
+     <div class="transition duration-1000 ease-in-out hover:bg-gray-700 border py-4 pl-9 border-none">
+        <img src="/public/image/rage.gif" alt="" class="max-sm:w-[70%] h-[50vh]">
+        <p class="text-2xl">how strong is naruto in kyuubi cloak mode</p>
+    </div>
+
+     <div class="transition duration-1000 ease-in-out hover:bg-gray-700 border py-4 pl-9 border-none">
+        <img src="/public/image/trio.gif" alt="" class="max-sm:w-[70%] h-[50vh]">
+        <p class="text-2xl">the monster trio's strength ranked</p>
+    </div>
+
+     <div class="transition duration-1000 ease-in-out hover:bg-gray-700 border py-4 pl-9 border-none">
+        <img src="/public/image/naruke.jpg" alt="" class="max-sm:w-[70%] h-[50vh]">
+        <p class="text-2xl">explore this content</p>
+    </div>
+
+     <div class="transition duration-1000 ease-in-out hover:bg-gray-700 border py-4 pl-9 border-none">
+        <img src="/public/image/zenitsu.gif" alt="" class="max-sm:w-[70%] h-[50vh]">
+        <p class="text-2xl">from one form wonder to god of thunder</p>
+    </div>
+
+     <div class="transition duration-1000 ease-in-out hover:bg-gray-700 border py-4 pl-9 border-none">
+        <img src="/public/image/room.jpg" alt="" class="max-sm:w-[70%] h-[50vh]">
+        <p class="text-2xl">explore this content</p>
+    </div>
+
+     <div class="transition duration-1000 ease-in-out hover:bg-gray-700 border py-4 pl-9 border-none">
+        <img src="/public/image/asakusa.jpg" alt="" class="max-sm:w-[70%] h-[50vh]">
+        <p class="text-2xl">the demon of asakusa</p>
+    </div>
+
+     <div class="transition duration-1000 ease-in-out hover:bg-gray-700 border py-4 pl-9 border-none">
+        <img src="/public/image/kusakabe.jpg" alt="" class="max-sm:w-[70%] h-[50vh]">
+        <p class="text-2xl">shinra kusakabe's power EXPLAINED</p>
+    </div>
+
+     <div class="transition duration-1000 ease-in-out hover:bg-gray-700 py-4 pl-9">
+        <img src="/public/image/wings.jpg" alt="" class="max-sm:w-[70%] h-[50vh]">
+        <p class="text-2xl">history of the survey corps</p>
+    </div>
+
+     <div class="transition duration-1000 ease-in-out hover:bg-gray-700 py-4 pl-9">
+        <img src="/public/image/WhatsApp Image 2026-01-28 at 8.42.52 AM.jpeg" alt="" class="max-sm:w-[70%] h-[50vh]">
+        <p class="text-2xl">how smart is she compared to ayanokoji</p>
+    </div>
+
+     <div class="transition duration-1000 ease-in-out hover:bg-gray-700  py-4 pl-9">
+        <img src="/public/image/wanted.jpg" alt="" class="max-sm:w-[70%] h-[50vh]">
+        <p class="text-2xl">how high will luffy's bounty get after elbaph arc</p>
+    </div>
+
+     <div class="transition duration-1000 ease-in-out hover:bg-gray-700 py-4 pl-9">
+        <img src="/public/image/toga.jpg" alt="" class="max-sm:w-[70%] h-[50vh]">
+        <p class="text-2xl">himiko toga uk drill-pureojuice</p>
+    </div>
+
+     <div class="transition duration-1000 ease-in-out hover:bg-gray-700 py-4 pl-9">
+        <img src="/public/image/tnd.jpg" alt="" class="max-sm:w-[70%] h-[50vh]">
+        <p class="text-2xl">explore this content</p>
+    </div>
+
+     <div class="transition duration-1000 ease-in-out hover:bg-gray-700 py-4 pl-9">
+        <img src="/public/image/room.jpg" alt="" class="max-sm:w-[70%] h-[50vh]">
+        <p class="text-2xl">the concept behind law's power</p>
+    </div>
+
+     <div class="transition duration-1000 ease-in-out hover:bg-gray-700 py-4 pl-9">
+        <img src="/public/image/nika.jpg" alt="" class="max-sm:w-[70%] h-[50vh]">
+        <p class="text-2xl">the warrior of liberation</p>
+    </div>
+
+     <div class="transition duration-1000 ease-in-out hover:bg-gray-700 py-4 pl-9">
+        <img src="/public/image/naruke.jpg" alt="" class="max-sm:w-[70%] h-[50vh]">
+        <p class="text-2xl">why naruto and sasuke are the reincarnation of indra and ashura EXPLAINED!!</p>
+    </div>
+
+     <div class="transition duration-1000 ease-in-out hover:bg-gray-700 py-4 pl-9">
+        <img src="/public/image/nah.jpg" alt="" class="max-sm:w-[70%] h-[50vh]">
+        <p class="text-2xl">explore this content</p>
+    </div>
+
+     <div class="transition duration-1000 ease-in-out hover:bg-gray-700 py-4 pl-9">
+        <img src="/public/image/ml.jpg" alt="" class="max-sm:w-[70%] h-[50vh]">
+        <p class="text-2xl">what is means when the moon is on type shii mode</p>
+    </div>
+
+     <div class="transition duration-1000 ease-in-out hover:bg-gray-700 py-4 pl-9">
+        <img src="/public/image/kusakabe.jpg" alt="" class="max-sm:w-[70%] h-[50vh]">
+        <p class="text-2xl">the devil's footprint</p>
+    </div>
+
+     <div class="transition duration-1000 ease-in-out hover:bg-gray-700 py-4 pl-9">
+        <img src="/public/image/koji.jpg" alt="" class="max-sm:w-[70%] h-[50vh]">
+        <p class="text-2xl">the best work of the white room <br> classroom of the elite</p>
+    </div>
+
+     <div class="transition duration-1000 ease-in-out hover:bg-gray-700 py-4 pl-9">
+        <img src="/public/image/killua.jpg" alt="" class="max-sm:w-[70%] h-[50vh]">
+        <p class="text-2xl">killua of the zoldyck clan</p>
+    </div>
+
+     <div class="transition duration-1000 ease-in-out hover:bg-gray-700 py-4 pl-9">
+        <img src="/public/image/jxb.jpg" alt="" class="max-sm:w-[70%] h-[50vh]">
+        <p class="text-2xl">the dynamic duo of enen no shouboutai</p>
+    </div>
+
+
+     <div class="transition duration-1000 ease-in-out hover:bg-gray-700 py-4 pl-9">
+        <img src="/public/image/asta1.jpg" alt="" class="max-sm:w-[70%] h-[50vh]">
+        <p class="text-2xl">the return of the flaw of the world</p>
+    </div>
+     </div>
+
+    <!-- the closing tag of things apart from aside -->
+        </div>
+
+        <!-- the closing tag of the div holding my sidebar and videos -->
+        </div>
+
+
+        <!-- the div holding the bottom bar -->
+        <div class="hidden max-sm:flex justify-around sticky">
+
+
+            
+            
+              <div class="">
+                <i class="fa-regular fa-house"></i>
+                <p>home</p>
+            </div>
+
+              <div class="">
+                <i class="fa-solid fa-clapperboard"></i>
+                <p>shorts</p>
+            </div>
+
+            <div class="bg-gray-500 rounded-4xl text-2xl pl-3 pt-1 w-10 h-10">+</div>
+
+             <p class="bg-blue-500 rounded-4xl text-2xl pl-4 pt-1 w-10 h-10">i</p>
+
+        </div>
+
+
+
+
+  
+
+
+       
+    
+</body>
+</html>
